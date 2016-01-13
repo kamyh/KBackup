@@ -64,7 +64,7 @@ class KBackUp:
 if __name__ == '__main__':
     k_b_u = KBackUp('', '', '')
     k_b_u.confirmation_email('', '', '')  ### Optional
-    k_b_u.set_directories('/home/pi/gitdir/', '/home/pi/')
+    k_b_u.set_directories('', '')
 
     print "Start archiving directory"
     k_b_u.archive()
